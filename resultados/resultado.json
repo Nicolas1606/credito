@@ -1,0 +1,38 @@
+{
+  "fonte": "simulação sintética",
+  "hash_dados": "2a04d5d7437b65bb58db957ac9992fcc59126aa1577f054dc0b1e83c381d97cd",
+  "versao": "credito-v1-2a04d5d7437b",
+  "modelo": "logistica_calibrado",
+  "corte_observacao": "2024-01-01",
+  "registros": 47100,
+  "maduros": 43500,
+  "fora_das_janelas": 11100,
+  "amostras": {
+    "treino": 18000,
+    "calibracao": 3600,
+    "politica": 3600,
+    "teste": 7200
+  },
+  "corte_aprovar": 0.07977064364584066,
+  "corte_revisar": 0.11129961607637444,
+  "teste_modelo": {
+    "roc_auc": 0.8026210100312774,
+    "average_precision": 0.3668320823129086,
+    "brier": 0.08307938706807666,
+    "prevalencia": 0.10958333333333334,
+    "pd_media": 0.09382156031882254
+  },
+  "teste_politica": {
+    "periodo": "teste",
+    "politica": "selecionada",
+    "total": 7200,
+    "aprovados": 4567,
+    "eventos": 181,
+    "aprovacao": 0.6343055555555556,
+    "revisao": 0.0973611111111111,
+    "risco": 0.03963214363915043,
+    "inferior95": 0.03434995921777023,
+    "superior95": 0.04568816767772314
+  },
+  "restricoes_atendidas_no_teste": false
+}
